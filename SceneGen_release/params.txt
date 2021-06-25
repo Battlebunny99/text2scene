@@ -1,0 +1,3 @@
+UseContext=0
+ContextCoOccProb=0.5
+GroupOccProb=0.5

@@ -1,0 +1,62 @@
+#pragma once
+
+#include "Headers.h"
+#include "SemanticGraph.h"
+#include "TextSemGraphManager.h"
+
+class RelationModelManager;
+
+const QString CommandNames[] = { "replace", "replacewith", "moveto", "moveon", "movecloser", "moveapart", "delete", "rotate"};
+enum CommandType
+{
+	Replace=0,
+	ReplaceWith,
+	MoveTo,
+	MoveOn,
+	MoveCloser,
+	MoveApart,
+	Delete,
+	Rotate
+};
+
+class TextSemGraph : public SemanticGraph
+{
+public:
+	TextSemGraph(SelSentence s, RelationModelManager *relManager, bool isCommand=false);
+	~TextSemGraph();
+
+	void buildGraphFromSEL();
+	void mapNodeNameToFixedNameSet();
+	void mapToFixedObjSet(QString &s);
+	void mapToFixedRelationSet(SemNode &currNode, QString &nodeName, QString &nodeType = QString(""));
+	void mapToFixedAttributeSet(QString &nodeName, QString &nodeType = QString(""));
+	void mapToFixedCommandSet(QString &nodeName, QString &nodeType = QString(""));
+
+	void addImplicitAttributes(); // add implicit attributes of objects, e.g., dining to chair if a dining table is specified
+	void addImplicitRelations(); // add implicit relations if no relations specified in the input
+	void postProcessForSpecialRelations();
+
+	QString convertToSinglarForm(const QString &s);
+	bool isOnObj(int entityId, const QString &anchorName);
+	bool isWithObj(const QString &currObjName, const QString &anchorName);
+
+	void initAttriSets();
+	bool isGoodAttribute(const QString &attriName);
+
+	SelSentence m_sentence;   // only handle one sentence per graph	
+	QString getDeterminerOfEntity(const QString &nodeName);
+
+	std::map<QString, QString> m_entityNameToNodeNameMap;
+
+
+private:
+	int m_sentence_id;
+
+	std::vector<int> m_isNodeCertain;
+	std::vector<int> m_isNodeGrounded;
+	std::vector<int> m_isEdgeGrounded;
+
+	RelationModelManager *m_relModelManager;
+	std::vector<QString> m_goodAttriSets;
+};
+

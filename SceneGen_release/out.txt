@@ -1,0 +1,32 @@
+scene-editing-language-version:1.0
+sentence-count:1
+sentence-0
+There is a chair in front of the desk
+entity-count:2
+entity-0
+id:chair-4
+plural:0
+count:1
+determiners:a
+attributes:0
+relationship-count:1
+in front of:desk-9
+entity-1
+id:desk-9
+plural:0
+count:1
+determiners:the
+attributes:0
+relationship-count:0
+command-count:0
+
+*** begin pretty print versions
+sentence-0
+There is a chair in front of the desk
+entity count: 2
+entity: chair-4
+  determiners: a,
+  relationships: in front of:desk-9,
+entity: desk-9
+  determiners: the,
+

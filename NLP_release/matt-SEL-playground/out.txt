@@ -1,0 +1,115 @@
+scene-editing-language-version:1.0
+sentence-count:3
+sentence-0
+There is a couch and two sofa chairs in the room.
+entity-count:3
+entity-0
+id:couch-4
+plural:0
+count:1
+determiners:a
+attributes:0
+relationship-count:1
+in:room-11
+entity-1
+id:chairs-8
+plural:1
+count:2
+determiners:
+attributes:1
+sofa
+relationship-count:2
+in:room-11
+in:room-11
+entity-2
+id:room-11
+plural:0
+count:1
+determiners:the
+attributes:0
+relationship-count:0
+command-count:0
+sentence-1
+In front of the couch is a messy coffee table.
+entity-count:2
+entity-0
+id:couch-5
+plural:0
+count:1
+determiners:the
+attributes:0
+relationship-count:0
+entity-1
+id:table-10
+plural:0
+count:1
+determiners:a
+attributes:2
+coffee
+messy
+relationship-count:1
+in front of:couch-5
+command-count:0
+sentence-2
+On the other side of the room, there is a tv with two speakers on each side.
+entity-count:3
+entity-0
+id:room-7
+plural:0
+count:1
+determiners:the
+attributes:0
+relationship-count:0
+entity-1
+id:tv-12
+plural:0
+count:1
+determiners:a
+attributes:0
+relationship-count:2
+with:speakers-15
+on the side of:room-7
+entity-2
+id:speakers-15
+plural:1
+count:2
+determiners:
+attributes:0
+relationship-count:0
+command-count:0
+
+*** begin pretty print versions
+sentence-0
+There is a couch and two sofa chairs in the room.
+entity count: 3
+entity: couch-4
+  determiners: a,
+  relationships: in:room-11,
+entity: chairs-8 (plural)
+  attributes: sofa,
+  count: 2
+  relationships: in:room-11,in:room-11,
+entity: room-11
+  determiners: the,
+
+sentence-1
+In front of the couch is a messy coffee table.
+entity count: 2
+entity: couch-5
+  determiners: the,
+entity: table-10
+  attributes: coffee,messy,
+  determiners: a,
+  relationships: in front of:couch-5,
+
+sentence-2
+On the other side of the room, there is a tv with two speakers on each side.
+entity count: 3
+entity: room-7
+  determiners: the,
+entity: tv-12
+  determiners: a,
+  relationships: with:speakers-15,on the side of:room-7,
+entity: speakers-15 (plural)
+  count: 2
+

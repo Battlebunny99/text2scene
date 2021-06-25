@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CollisionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FrameBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GaussianMixtureModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LayoutPlanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NiceGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ObjLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PerlinNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RelationModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RelationModelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneSemGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneSemGraphManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SemGraphMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SemanticGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SuppPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SuppPlaneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TSScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextSemGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextSemGraphManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TransformFeedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Variation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VertexBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\mesh_bvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FrameBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Src\GLWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Src\GUI.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Src\GaussianMixtureModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LayoutPlanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Src\Model.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Src\NiceGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ObjLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Src\Object.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Src\PerlinNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RelationModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RelationModelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneSemGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneSemGraphManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SemGraphMatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SemanticGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Src\Shader.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Src\Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SuppPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SuppPlaneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TSScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Src\TextDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Src\TextSemGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextSemGraphManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TransformFeedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TriangleIntersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Variation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\VertexBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\box_bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\bvh_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\eigenmvn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\mesh_bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\morton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ray_triangle_intersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\triangle_triangle_intersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Blur.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Blur.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\CookTorrance.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\CookTorrance.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Default.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Default.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\DefaultDepth.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\DefaultLight.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\DefaultLight.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\DefaultLightShadow.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\DefaultLightShadow.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Difference.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Difference.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Feedback.geom.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Feedback.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\GUI.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\GUI.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Model.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Model.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\ModelDepth.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\NiceGrid.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\NiceGrid.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Noise.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Noise.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Object.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Object.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\ObjectDepth.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\ObjectDepth.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\ObjectLines.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\ObjectLines.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAABlendingWeightCalculation40.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAABlendingWeightCalculation40.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAAEdgeDetection40.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAAEdgeDetection40.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAANeighberhoodBlending40.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SMAANeighberhoodBlending40.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SphericalHarmonic.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\SphericalHarmonic.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessInterp.cont.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessInterp.eval.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessInterp.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessInterp.geom.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessInterp.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessNormal.cont.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessNormal.eval.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessNormal.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessNormal.geom.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\TessNormal.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="main.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

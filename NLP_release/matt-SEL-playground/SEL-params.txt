@@ -1,0 +1,3 @@
+nlpRoot=F:\Text2Scene\NLP_release\
+inputFile=in.txt
+outputFile=out.txt

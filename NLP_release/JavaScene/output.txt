@@ -1,0 +1,1 @@
+There is a chair in front of the desk#expl@2@is@1@There@EX^root@0@ROOT@2@is@VBZ^det@4@chair@3@a@DT^nsubj@2@is@4@chair@NN^case@9@desk@5@in@IN^mwe@5@in@6@front@NN^mwe@5@in@7@of@IN^det@9@desk@8@the@DT^nmod:in_front_of@4@chair@9@desk@NN^|

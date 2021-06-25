@@ -1,0 +1,128 @@
+﻿Build started 25.06.2021 20:41:46.
+     1>Project "F:\Text2Scene\SceneGen_release\main.vcxproj" on node 2 (Build target(s)).
+     1>QtVars:
+         WHERE /Q cl.exe
+         ("F:/QT/5.9/msvc2015_64/bin/qmake" -query) 1> props.txt
+         Reading Qt configuration (F:/QT/5.9/msvc2015_64/bin/qmake)
+         ("F:/QT/5.9/msvc2015_64/bin/qmake" "CONFIG -= debug release debug_and_release" "CONFIG += release" qtvars.pro) 1> qtvars.log 2>&1
+     1>Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (1) is building "F:\Text2Scene\SceneGen_release\main.vcxproj" (1:2) on node 2 (Build target(s)).
+     1>CustomBuild:
+         Generate moc_predefs.h
+       QtWork:
+         Rcc'ing main.qrc...
+         Moc'ing Src\GLWidget.h...
+         Moc'ing Src\GUI.h...
+         Moc'ing Src\Model.h...
+         Moc'ing Src\Object.h...
+         Moc'ing Src\Shader.h...
+         Moc'ing Src\TextDialog.h...
+       ClCompile:
+         F:\Visual Studio\VC\bin\x86_amd64\CL.exe /c /IRelease /I. /I"ThirdParty\glew-1.12.0\include" /I"ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\include" /IThirdParty\eigen3.3.3 /Irelease /IF:\QT\5.9\msvc2015_64\include /IF:\QT\5.9\msvc2015_64\include\QtOpenGL /IF:\QT\5.9\msvc2015_64\include\QtWidgets /IF:\QT\5.9\msvc2015_64\include\QtGui /IF:\QT\5.9\msvc2015_64\include\QtANGLE /IF:\QT\5.9\msvc2015_64\include\QtCore /I"F:\QT\5.9\msvc2015_64\mkspecs\win32-msvc" /IRelease /Zi /nologo /W0 /WX- /MP8 /O2 /D _CONSOLE /D UNICODE /D WIN32 /D WIN64 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D NDEBUG /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"release\\" /Fd"release\vc140.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 Src\Camera.cpp Src\CameraManager.cpp Src\CollisionManager.cpp Src\Color.cpp Src\FrameBufferObject.cpp Src\GLWidget.cpp Src\GUI.cpp Src\GaussianMixtureModel.cpp Src\Geometry.cpp Src\Headers.cpp Src\LayoutPlanner.cpp Src\Light.cpp Main.cpp Src\Math.cpp Src\Mesh.cpp Src\Model.cpp Src\NiceGrid.cpp Src\ObjLoader.cpp Src\Object.cpp Src\PerlinNoise.cpp Src\RelationModel.cpp Src\RelationModelManager.cpp Src\Renderer.cpp Src\Scene.cpp Src\SceneGenerator.cpp Src\SceneSemGraph.cpp Src\SceneSemGraphManager.cpp Src\SemGraphMatcher.cpp Src\SemanticGraph.cpp Src\Shader.cpp Src\Statistics.cpp Src\SuppPlane.cpp Src\SuppPlaneManager.cpp Src\TSScene.cpp Src\TextDialog.cpp Src\TextSemGraph.cpp Src\TextSemGraphManager.cpp Src\Texture.cpp Src\TransformFeedback.cpp Src\Variation.cpp Src\VertexBufferObject.cpp Src\mesh_bvh.cpp
+         Camera.cpp
+         CameraManager.cpp
+         CollisionManager.cpp
+         Color.cpp
+         FrameBufferObject.cpp
+         GLWidget.cpp
+         GUI.cpp
+         GaussianMixtureModel.cpp
+         Geometry.cpp
+         Headers.cpp
+         LayoutPlanner.cpp
+         Light.cpp
+         Main.cpp
+         Math.cpp
+         Mesh.cpp
+         Model.cpp
+         NiceGrid.cpp
+         ObjLoader.cpp
+         Object.cpp
+         PerlinNoise.cpp
+         RelationModel.cpp
+         RelationModelManager.cpp
+         Renderer.cpp
+         Scene.cpp
+         SceneGenerator.cpp
+         SceneSemGraph.cpp
+         SceneSemGraphManager.cpp
+         SemGraphMatcher.cpp
+         SemanticGraph.cpp
+         Shader.cpp
+         Statistics.cpp
+         SuppPlane.cpp
+         SuppPlaneManager.cpp
+         TSScene.cpp
+         TextDialog.cpp
+         TextSemGraph.cpp
+         TextSemGraphManager.cpp
+         Texture.cpp
+         TransformFeedback.cpp
+         Variation.cpp
+         VertexBufferObject.cpp
+         mesh_bvh.cpp
+         F:\Visual Studio\VC\bin\x86_amd64\CL.exe /c /IRelease /IF:\Text2Scene\SceneGen_release\ /I. /I"ThirdParty\glew-1.12.0\include" /I"ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\include" /IThirdParty\eigen3.3.3 /Irelease /IF:\QT\5.9\msvc2015_64\include /IF:\QT\5.9\msvc2015_64\include\QtOpenGL /IF:\QT\5.9\msvc2015_64\include\QtWidgets /IF:\QT\5.9\msvc2015_64\include\QtGui /IF:\QT\5.9\msvc2015_64\include\QtANGLE /IF:\QT\5.9\msvc2015_64\include\QtCore /I"F:\QT\5.9\msvc2015_64\mkspecs\win32-msvc" /IRelease /Zi /nologo /W0 /WX- /MP8 /O2 /D _CONSOLE /D UNICODE /D WIN32 /D WIN64 /D _USE_MATH_DEFINES /D QT_NO_DEBUG /D NDEBUG /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"release\\" /Fd"release\vc140.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 Release\qrc_main.cpp Release\moc_GLWidget.cpp Release\moc_GUI.cpp Release\moc_Model.cpp Release\moc_Object.cpp Release\moc_Shader.cpp Release\moc_TextDialog.cpp
+         qrc_main.cpp
+         moc_GLWidget.cpp
+         moc_GUI.cpp
+         moc_Model.cpp
+         moc_Object.cpp
+         moc_Shader.cpp
+         moc_TextDialog.cpp
+       Link:
+         F:\Visual Studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\Main.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\QT\5.9\msvc2015_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib "ThirdParty\glew-1.12.0\lib\Release\x64\glew32.lib" "ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\lib\x64\freeglut.lib" F:\QT\5.9\msvc2015_64\lib\qtmain.lib shell32.lib F:\QT\5.9\msvc2015_64\lib\Qt5OpenGL.lib F:\QT\5.9\msvc2015_64\lib\Qt5Widgets.lib F:\QT\5.9\msvc2015_64\lib\Qt5Gui.lib F:\QT\5.9\msvc2015_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"release\Main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 -LARGEADDRESSAWARE -openmp "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" release\Camera.obj
+         release\CameraManager.obj
+         release\CollisionManager.obj
+         release\Color.obj
+         release\FrameBufferObject.obj
+         release\GLWidget.obj
+         release\GUI.obj
+         release\GaussianMixtureModel.obj
+         release\Geometry.obj
+         release\Headers.obj
+         release\LayoutPlanner.obj
+         release\Light.obj
+         release\Main.obj
+         release\Math.obj
+         release\Mesh.obj
+         release\Model.obj
+         release\NiceGrid.obj
+         release\ObjLoader.obj
+         release\Object.obj
+         release\PerlinNoise.obj
+         release\RelationModel.obj
+         release\RelationModelManager.obj
+         release\Renderer.obj
+         release\Scene.obj
+         release\SceneGenerator.obj
+         release\SceneSemGraph.obj
+         release\SceneSemGraphManager.obj
+         release\SemGraphMatcher.obj
+         release\SemanticGraph.obj
+         release\Shader.obj
+         release\Statistics.obj
+         release\SuppPlane.obj
+         release\SuppPlaneManager.obj
+         release\TSScene.obj
+         release\TextDialog.obj
+         release\TextSemGraph.obj
+         release\TextSemGraphManager.obj
+         release\Texture.obj
+         release\TransformFeedback.obj
+         release\Variation.obj
+         release\VertexBufferObject.obj
+         release\mesh_bvh.obj
+         release\qrc_main.obj
+         release\moc_GLWidget.obj
+         release\moc_GUI.obj
+         release\moc_Model.obj
+         release\moc_Object.obj
+         release\moc_Shader.obj
+         release\moc_TextDialog.obj
+     1>LINK : warning LNK4044: unrecognized option '/openmp'; ignored
+         main.vcxproj -> F:\Text2Scene\SceneGen_release\release\Main.exe
+     1>Done Building Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (Build target(s)).
+     1>Done Building Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.53

@@ -1,0 +1,2 @@
+StanfordDB=F:\Text2Scene\SceneDB\StanfordSceneDB\
+ResultPath=.\SceneDB\Results\

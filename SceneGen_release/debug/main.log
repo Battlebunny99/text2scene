@@ -1,0 +1,123 @@
+﻿Build started 25.06.2021 20:05:52.
+     1>Project "F:\Text2Scene\SceneGen_release\main.vcxproj" on node 2 (Build target(s)).
+     1>Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (1) is building "F:\Text2Scene\SceneGen_release\main.vcxproj" (1:2) on node 2 (Build target(s)).
+     1>CustomBuild:
+         Generate moc_predefs.h
+       QtWork:
+         Rcc'ing main.qrc...
+         Moc'ing Src\GLWidget.h...
+         Moc'ing Src\GUI.h...
+         Moc'ing Src\Model.h...
+         Moc'ing Src\Object.h...
+         Moc'ing Src\Shader.h...
+         Moc'ing Src\TextDialog.h...
+       ClCompile:
+         F:\Visual Studio\VC\bin\x86_amd64\CL.exe /c /IDebug /I. /I"ThirdParty\glew-1.12.0\include" /I"ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\include" /IThirdParty\eigen3.3.3 /Idebug /IF:\QT\5.9\msvc2015_64\include /IF:\QT\5.9\msvc2015_64\include\QtOpenGL /IF:\QT\5.9\msvc2015_64\include\QtWidgets /IF:\QT\5.9\msvc2015_64\include\QtGui /IF:\QT\5.9\msvc2015_64\include\QtANGLE /IF:\QT\5.9\msvc2015_64\include\QtCore /I"F:\QT\5.9\msvc2015_64\mkspecs\win32-msvc" /IDebug /Zi /nologo /W0 /WX- /MP8 /Od /D _CONSOLE /D UNICODE /D WIN32 /D WIN64 /D _USE_MATH_DEFINES /D UNICODE /D WIN32 /D WIN64 /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"debug\\" /Fd"debug\vc140.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 Src\Camera.cpp Src\CameraManager.cpp Src\CollisionManager.cpp Src\Color.cpp Src\FrameBufferObject.cpp Src\GLWidget.cpp Src\GUI.cpp Src\GaussianMixtureModel.cpp Src\Geometry.cpp Src\Headers.cpp Src\LayoutPlanner.cpp Src\Light.cpp Main.cpp Src\Math.cpp Src\Mesh.cpp Src\Model.cpp Src\NiceGrid.cpp Src\ObjLoader.cpp Src\Object.cpp Src\PerlinNoise.cpp Src\RelationModel.cpp Src\RelationModelManager.cpp Src\Renderer.cpp Src\Scene.cpp Src\SceneGenerator.cpp Src\SceneSemGraph.cpp Src\SceneSemGraphManager.cpp Src\SemGraphMatcher.cpp Src\SemanticGraph.cpp Src\Shader.cpp Src\Statistics.cpp Src\SuppPlane.cpp Src\SuppPlaneManager.cpp Src\TSScene.cpp Src\TextDialog.cpp Src\TextSemGraph.cpp Src\TextSemGraphManager.cpp Src\Texture.cpp Src\TransformFeedback.cpp Src\Variation.cpp Src\VertexBufferObject.cpp Src\mesh_bvh.cpp
+         Camera.cpp
+         CameraManager.cpp
+         CollisionManager.cpp
+         Color.cpp
+         FrameBufferObject.cpp
+         GLWidget.cpp
+         GUI.cpp
+         GaussianMixtureModel.cpp
+         Geometry.cpp
+         Headers.cpp
+         LayoutPlanner.cpp
+         Light.cpp
+         Main.cpp
+         Math.cpp
+         Mesh.cpp
+         Model.cpp
+         NiceGrid.cpp
+         ObjLoader.cpp
+         Object.cpp
+         PerlinNoise.cpp
+         RelationModel.cpp
+         RelationModelManager.cpp
+         Renderer.cpp
+         Scene.cpp
+         SceneGenerator.cpp
+         SceneSemGraph.cpp
+         SceneSemGraphManager.cpp
+         SemGraphMatcher.cpp
+         SemanticGraph.cpp
+         Shader.cpp
+         Statistics.cpp
+         SuppPlane.cpp
+         SuppPlaneManager.cpp
+         TSScene.cpp
+         TextDialog.cpp
+         TextSemGraph.cpp
+         TextSemGraphManager.cpp
+         Texture.cpp
+         TransformFeedback.cpp
+         Variation.cpp
+         VertexBufferObject.cpp
+         mesh_bvh.cpp
+         F:\Visual Studio\VC\bin\x86_amd64\CL.exe /c /IDebug /IF:\Text2Scene\SceneGen_release\ /I. /I"ThirdParty\glew-1.12.0\include" /I"ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\include" /IThirdParty\eigen3.3.3 /Idebug /IF:\QT\5.9\msvc2015_64\include /IF:\QT\5.9\msvc2015_64\include\QtOpenGL /IF:\QT\5.9\msvc2015_64\include\QtWidgets /IF:\QT\5.9\msvc2015_64\include\QtGui /IF:\QT\5.9\msvc2015_64\include\QtANGLE /IF:\QT\5.9\msvc2015_64\include\QtCore /I"F:\QT\5.9\msvc2015_64\mkspecs\win32-msvc" /IDebug /Zi /nologo /W0 /WX- /MP8 /Od /D _CONSOLE /D UNICODE /D WIN32 /D WIN64 /D _USE_MATH_DEFINES /D UNICODE /D WIN32 /D WIN64 /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"debug\\" /Fd"debug\vc140.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 Debug\qrc_main.cpp Debug\moc_GLWidget.cpp Debug\moc_GUI.cpp Debug\moc_Model.cpp Debug\moc_Object.cpp Debug\moc_Shader.cpp Debug\moc_TextDialog.cpp
+         qrc_main.cpp
+         moc_GLWidget.cpp
+         moc_GUI.cpp
+         moc_Model.cpp
+         moc_Object.cpp
+         moc_Shader.cpp
+         moc_TextDialog.cpp
+       Link:
+         F:\Visual Studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\Main.exe" /NOLOGO /LIBPATH:F:\QT\5.9\msvc2015_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib "ThirdParty\glew-1.12.0\lib\Release\x64\glew32.lib" "ThirdParty\freeglut-MSVC-3.0.0-2.mp\freeglut\lib\x64\freeglut.lib" F:\QT\5.9\msvc2015_64\lib\qtmaind.lib shell32.lib F:\QT\5.9\msvc2015_64\lib\Qt5OpenGLd.lib F:\QT\5.9\msvc2015_64\lib\Qt5Widgetsd.lib F:\QT\5.9\msvc2015_64\lib\Qt5Guid.lib F:\QT\5.9\msvc2015_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"debug\Main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 -LARGEADDRESSAWARE -openmp "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\Camera.obj
+         debug\CameraManager.obj
+         debug\CollisionManager.obj
+         debug\Color.obj
+         debug\FrameBufferObject.obj
+         debug\GLWidget.obj
+         debug\GUI.obj
+         debug\GaussianMixtureModel.obj
+         debug\Geometry.obj
+         debug\Headers.obj
+         debug\LayoutPlanner.obj
+         debug\Light.obj
+         debug\Main.obj
+         debug\Math.obj
+         debug\Mesh.obj
+         debug\Model.obj
+         debug\NiceGrid.obj
+         debug\ObjLoader.obj
+         debug\Object.obj
+         debug\PerlinNoise.obj
+         debug\RelationModel.obj
+         debug\RelationModelManager.obj
+         debug\Renderer.obj
+         debug\Scene.obj
+         debug\SceneGenerator.obj
+         debug\SceneSemGraph.obj
+         debug\SceneSemGraphManager.obj
+         debug\SemGraphMatcher.obj
+         debug\SemanticGraph.obj
+         debug\Shader.obj
+         debug\Statistics.obj
+         debug\SuppPlane.obj
+         debug\SuppPlaneManager.obj
+         debug\TSScene.obj
+         debug\TextDialog.obj
+         debug\TextSemGraph.obj
+         debug\TextSemGraphManager.obj
+         debug\Texture.obj
+         debug\TransformFeedback.obj
+         debug\Variation.obj
+         debug\VertexBufferObject.obj
+         debug\mesh_bvh.obj
+         debug\qrc_main.obj
+         debug\moc_GLWidget.obj
+         debug\moc_GUI.obj
+         debug\moc_Model.obj
+         debug\moc_Object.obj
+         debug\moc_Shader.obj
+         debug\moc_TextDialog.obj
+     1>LINK : warning LNK4044: unrecognized option '/openmp'; ignored
+         main.vcxproj -> F:\Text2Scene\SceneGen_release\debug\Main.exe
+     1>Done Building Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (Build target(s)).
+     1>Done Building Project "F:\Text2Scene\SceneGen_release\main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.92
